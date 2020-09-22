@@ -1,0 +1,9 @@
+{
+    "extends": "eslint",
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "new-line-before-if": 2
+    }
+}
