@@ -14,7 +14,7 @@ tester.run("new-line-before-if", require("../rule/new-line-before-if"), {
         // if文の後が改行されていなければNG
         {
             code: "if (hoge) {\n  hoge;\n  } if (huga) {\n  huga;\n  }",
-            errors: ["There are no new lines after if."]
+            errors: ["There are no new lines before if."]
         }
     ]
 });
