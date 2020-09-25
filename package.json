@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "eslint-plugin-new-line-before-if",
-  "description": "",
+  "description": "new-line-before-if linter",
   "version": "1.0.0",
   "scripts": {
     "lint": "eslint . --rulesdir eslint/rule",
@@ -16,10 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/nisshii0313/eslint-plugin-new-line-before-if.git"
   },
-  "keywords": [],
+  "main": "eslint/rule/new-line-before-if.js",
+  "keywords": [
+    "if",
+    "new line"
+  ],
   "author": "Yuta Imanishi",
   "license": "MIT",
-  "homepage": ""
+  "homepage": "https://github.com/nisshii0313/eslint-plugin-new-line-before-if"
 }
